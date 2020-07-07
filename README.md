@@ -1,12 +1,14 @@
 <h1 align="center">
-    Be The Hero
+    <img alt="Be The Hero" title="Be The Hero" src=".github/logo.svg" width="220px" />
 </h1>
+
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
 
 ## 💻 Projeto
 
@@ -40,6 +42,16 @@ O Be The Hero é um projeto que visa conectar pessoas interessadas em ajudar ong
   $ yarn knex:seed
 
   # Inicie a API
+  $ yarn start
+```
+
+- ## Web
+```sh
+  # Instale as dependências
+  $ cd web
+  $ yarn install
+
+  # Inicie o projeto web
   $ yarn start
 ```
 
